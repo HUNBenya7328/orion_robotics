@@ -11,18 +11,31 @@ To open the website:
 
 Project Structure:
   /
+  
   ├── index.html             # Main page
+  
   ├── about.html             # About the company
+  
   ├── products.html          # Product listings
+  
   ├── contact.html           # Contact form
+  
   ├── css/
+  
   │   └── main.css           # Main stylesheet
+  
   │   └── about.css          # Stylesheet for the about site
+  
   │   └── home.css           # Stylesheet for the home site
+  
   │   └── products.css       # Stylesheet for the products site
+  
   │   └── contact.css        # Stylesheet for the contact site
+  
   └── images/
+  
       └── ...             # Project images and logos
+      
 HTML5 for structure   CSS3 for styling   (No JavaScript used in this project)
 
 Created by Bence Madarász,
