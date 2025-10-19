@@ -37,7 +37,7 @@ Project Structure:
         └── ...             # Project images and logos
       
       
-HTML5 for structure   CSS3 for styling   (No JavaScript used in this project)
+HTML5 for structure,   CSS3 for styling,   (No JavaScript used in this project)
 
 Created by Bence Madarász,
 18-year-old student at the University of Szeged
