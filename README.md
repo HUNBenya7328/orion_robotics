@@ -11,6 +11,7 @@ To open the website:
 
 Project Structure:
         /
+        
       ├── index.html             # Main page
   
       ├── about.html             # About the company
