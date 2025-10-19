@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacts | Orion Robotics</title>
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav>
+        <div id="nav-bar">
+            <div class="logo"><img src="images/logo.jpg"></div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="products.html">Products</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <section class="contact-hero">
+            <h1>Get in Touch</h1>
+            <p>Have a question or want to collaborate with us? We'd love to hear from you!</p>
+        </section>
+    
+        <section class="contact-container">
+            <div class="contact-form">
+                <h2>Send Us a Message</h2>
+                <form action="#" method="post">
+                    <div class="form-group">
+                        <label for="name">Your Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Enter your name">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Your Email</label>
+                        <input type="email" id="email" name="email" required placeholder="example@gmail.com">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Your Phone number</label>
+                        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="123-456-7890">
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Write your message..."></textarea>
+                    </div>
+    
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+    
+            <div class="contact-info">
+                <h2>Contact Information</h2>
+                <p><strong>Email:</strong> <a href="mailto:info@orionrobotics.com">info@orionrobotics.com</a></p>
+                <p><strong>Phone:</strong> +12 34 567 8901</p>
+                <p><strong>Address:</strong> 1123 Budapest, Science Park 5.</p>
+
+                <h3>Open Jobs</h3>
+                <ul class="job-list">
+                  <li><strong>Junior Robotics Engineer</strong> – Assist in developing and testing new educational robots.</li>
+                  <li><strong>Workshop Instructor</strong> – Teach coding and robotics to children in our weekend programs.</li>
+                  <li><strong>Marketing Assistant</strong> – Help promote Orion Robotics across social media and events.</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p id="copyright">©2025 Bence Madarász<br>Akamai Final Project</p>
+    </footer>
+</body>
+</html>
